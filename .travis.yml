@@ -1,0 +1,14 @@
+deploy:
+  provider: npm
+  email: npmtest@mobilehero.me
+  api_key:
+    secure: kXI43Z5NhxH7ATjkRhVIiQz1shZ/9AM2lIpmZm5YPkQnpHJNFiHvTXjHhzguuQMy7aO3kshU2+wrcBl7xuOGQpjgJnhMx8O+dbWJL88FXQdjNCMN9ONHlKDjRzd53804gEEqa7ztEFHq/ddQt5GApH3KrbDKO8ZtyWf0VJ4B447X/eu2ibB4e5vSvuQ2e+ozvwE3osbf4H0V2suSNWnI8NSMewWwb+/+J5KORHBn+SATgxYG6s/tPvaX0j4EYLASbSJnfJP4rF7mf5f55hKdDp8X8xtDd/yyUCUnSvsk1J/0mbs2laIMXfLccXZq/U8jd36E3+ejkhXTohntIcl7koSZxkWhNVBQx9dX83tQps/v/55Ts6Hw1mhBk1AQ6JDYMY4KydoKZG9OrH9uunxHzXpU37rxfM5km/X/h6riM+GYPjBzGWYbpCA2DTDCq31nKhnl88TeUyaNZQBqNaDfizZdWs9GzQYwuuaRCPKjKFxTPqBqPcoth5NUWi2hn3j72A1n+aSs5YRIp7M49cTgfamjcLb2E3uZPVA5jhbcUSbcvtVxXmN55lI+Fyi8cNBFn79SKVHCU6ll32CVcsWQ2Q3wzoatbmliO9jO3yqWIBBbtRhBqjqNQ/4Ae0ouauLhtHFxSFtxwyWwoT9zROqNFHe3f92jG16nImDnWlZUqZY=
+  on:
+    tags: true
+    repo: 2klabz/nothing-to-see-here
+    
+  # safelist
+  branches:
+    only:
+    - master
+    - test1
